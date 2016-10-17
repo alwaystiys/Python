@@ -60,7 +60,7 @@ mySession = requests.session()
 
 # 登录
 def login():
-    data = {'account':'Tommyace','password':'ace039'}
+    data = {'account':'*******','password':'**********'}
     loginUrl = 'http://www.dianxiaomi.com/user/login.htm'
     res = mySession.post(loginUrl, data)
     if res.status_code == 200:
